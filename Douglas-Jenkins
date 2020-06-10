@@ -1,0 +1,30 @@
+ /* ============================================
+; Title: Discussion Board
+; Author: Professor Krasso
+; Date: 9 June 2020
+; Modified By: Douglas Jenkins
+; Description: Switch Errors
+;=========================================== */
+
+// Selects the expected output
+const animal = "cow" ;
+
+
+// Switch Statement with two errors below
+switch ( Animal ) {
+case "dog" :
+console . log ( 'This is a Dog' )
+break ;
+
+case "cat" :
+console . log ( 'This is a Cat' )
+break ;
+
+cas "frog" :
+console . log ( 'This is a Frog' )
+break ;
+
+
+default :
+console . log ( 'Unrecognized key.' )
+break ; 
