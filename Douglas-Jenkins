@@ -1,4 +1,4 @@
- /* ============================================
+  /* ============================================
 ; Title: Discussion Board
 ; Author: Professor Krasso
 ; Date: 9 June 2020
@@ -7,24 +7,24 @@
 ;=========================================== */
 
 // Selects the expected output
-const animal = "cow" ;
+const Animal = "cow" ;   // capitalized animal - based on coding guidelines I use PascalCase
 
 
 // Switch Statement with two errors below
-switch ( Animal ) {
+switch ( Animal ) {   
 case "dog" :
-console . log ( 'This is a Dog' )
+console.log ( 'This is a Dog' )
 break ;
 
 case "cat" :
-console . log ( 'This is a Cat' )
+console.log ( 'This is a Cat' )
 break ;
 
-cas "frog" :
-console . log ( 'This is a Frog' )
+case "frog" :                         // fixed mispelling error - cas to case
+console.log ( 'This is a Frog' )
 break ;
-
 
 default :
-console . log ( 'Unrecognized key.' )
+console.log ( 'Unrecognized key.' )
 break ; 
+}                                     // added missing bracket
