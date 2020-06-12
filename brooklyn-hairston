@@ -27,9 +27,9 @@ var second = 0;
 
 //while loop with two errors
 
-while "first < 10" { 
+while (first < 10) {    // changed quotations for parentheses
 
-first; 
+first++;               // added ++
 
 second += first;
 
@@ -40,4 +40,6 @@ second += first;
 
 console.log(first);
 
-console.log(Second);
+console.log(second); // change capital S for s in 'second'
+
+// Output is now 10 and 40
